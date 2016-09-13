@@ -16,11 +16,14 @@
 title: Greativity
 email: hanafiah.ramadhan@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a newcomer who learn and forget, i made this documented as much as possible. Work for eternity.
+  I'm a newcomer who learn and forget, and made it documented as much as possible. Work for eternity.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username: rama_than
 github_username:  ramadhinov
+ig_username: rama_than
+fb_username: ramadhinolfski
+in_username: lutfi-ramadhan-2b74586a
 
 # Build settings
 markdown: kramdown
