@@ -6,7 +6,7 @@ permalink: /about/
 <center><img src="../asset/images/pass.png" alt="Ganteng" height="150" width="150"></center>
 
 > Hi, I'm Ramadhan.
-> A new comer in _IT World_.
+> A new comer on _IT World_.
 
 Happy to know about this world every I learn something new. I'm a human, so it really normal to forget something and anything, so I made this page to document every something _new_ for me.
 
