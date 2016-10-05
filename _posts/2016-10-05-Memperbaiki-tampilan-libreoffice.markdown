@@ -22,3 +22,8 @@ Lalu logout komputer/laptop, dan buka kembali aplikasi **LibreOffice**. Maka tam
 ![Tampilan akhir libreoffice -fullwidth]({{site.baseurl}}/asset/images/libreoffice2.png)
 
 > Perintah diatas perlu dijalankan kembali ketika kita melakukan _update_ terhadap aplikasi.
+
+**Sumber tulisan**
+> https://wonderneko.wordpress.com/2016/08/18/tampilan-libreoffice-di-fedora-24/
+
+Tulisan ini telah dicoba dan dilaksanakan pada sistem operasi ArchLinux.
