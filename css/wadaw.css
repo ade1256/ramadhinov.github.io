@@ -7,3 +7,6 @@
 .parallax-container {
 	height: 300px;
 }
+img[alt$="-fullwidth"]{ 
+  width:  100%;
+}
