@@ -33,7 +33,7 @@
 
 ###Pengguna
 
-Siapa yang menggunakan **Django** sebagai framework _web_nya? beberapa _web_ terkenal ini menggunakan **Django** sebagai frameworknya:
+Siapa yang menggunakan **Django** sebagai _web framework_ nya? beberapa _web_ terkenal ini menggunakan **Django** sebagai frameworknya:
 
 - Disqus.
 - Bitbucket. 
