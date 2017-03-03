@@ -1,8 +1,8 @@
-##Overview
+## Overview
 
 **Django** merupakan Free dan Open Source _web_ Framework yang dibangun menggunakan bahasa pemrograman _Python_. Sebuah _web framework_ yang didalamnya sudah terdapat komponen untuk lebih mempercepat dan memudahkan _web development_. Arsitektur yang digunakan oleh **Django** adalah **_model_**-**_template_**-**_view(MTV)_**.
 
-###Mengenal MVT
+### Mengenal MVT
 
 1. **_Model_** adalah lapisan akses data. Pada lapisan ini terdapat tentang apa saja sebuah data itu: bagaimana cara akses, bagaimana cara validasi dan lain-lain.
 
@@ -10,7 +10,7 @@
 
 1. **_View_** adalah lapisan yang berurusan dengan logika. Pada lapisan ini terdapat logika yang dapat mengakses _model_ dan juga _template_. Bisa juga disebut sebagai jembatan antara _model_ dan _template_.
 
-###Beberapa Kelebihan
+### Beberapa Kelebihan
 
 2. ***Rapidly*** : **Django** telah dirancang untuk membantu _developer_ membuat aplikasi dari konsep sampai selesai secepat mungkin. _"from concept to completion as quickly as possible"_
 
@@ -31,7 +31,7 @@
 
 2. Rest API why no?
 
-###Pengguna
+### Pengguna
 
 Siapa yang menggunakan **Django** sebagai _web framework_ nya? beberapa _web_ terkenal ini menggunakan **Django** sebagai frameworknya:
 
@@ -47,13 +47,13 @@ Siapa yang menggunakan **Django** sebagai _web framework_ nya? beberapa _web_ te
 Referensi: [Linkedin](https://www.linkedin.com/pulse/top-10-sites-built-Django-framework-vladimir-bogdano)
 
 
-##Getting Started
+## Getting Started
 
-###Memasang PIP
+### Memasang PIP
 
 __PIP__ adalah package manager untuk **Python**, jadi kita bisa gunakan pip untuk menginstall django. Untuk pengguna **Archlinux**, kita bisa gunakan paket `python-pip` atau `python2-pip` untuk menginstall `pip`, dan untuk distro lain bisa menyesuaikan.
 
-###Memasang Django
+### Memasang Django
 
 _Install_ **Django** itu mudah, tinggal lakukan perintah berikut dengan _superuser_ _a.k.a_ _root_.
 
@@ -61,7 +61,7 @@ _Install_ **Django** itu mudah, tinggal lakukan perintah berikut dengan _superus
 # pip install Django (paket Python-pip)
 ```
 
-###Membuat Project Baru
+### Membuat Project Baru
 
 Buat _project_ baru dengan nama _djangotutorial_, sesuaikan dengan _project_ yang dibuat.
 `django-admin startproject djangotutorial`
@@ -122,7 +122,7 @@ urlpatterns = [
 **Django** itu sendiri sudah menyediakan _web server_ yang dibuat dengan **Python** untuk melakukan testing dalam masa _development_. Jadi memudahkan kita untuk _development_ sebelum memasukan _server production_. Perlu diingat bahwa _web server_ yang disediakan tidak dianjurkan untuk digunakan pada masa produksi. Pada kesempatan selanjutnya akan membahas tentang integrasi antara **WSGI** dan _web server_.
 
 
-###Running Test
+### Running Test
 
 Menjalankan server django pada terminal dengan perintah `python manage.py runserver`.
 
@@ -149,7 +149,7 @@ Perlu diingat bahwa `runserver` secara _default_ akan menjalankan _web server_ d
 
 Oh iya, _web server_ yang sudah berjalan ini sudah otomatis reload ketika kita melakukan perubahan terhadap _project_. Jadi tidak usah restart _web server_ ketika melakukan perubahan kecuali melakukan penambahan berkas. Lebih lengkap bisa baca [disini](https://docs.djangoproject.com/en/1.10/ref/django-admin/#django-admin-runserver).
 
-###Membuat _First Page_
+### Membuat _First Page_
 
 Buat file views.py pada direktori inti sebuah _project_ yang sudah dijelaskan sebelumnya. Untuk _case_ sederhana kita hanya akan menampilkan pesan `It's Django`. Caranya, pada folder `/Belajardjango/djangotutorial/djangotutorial/` buat _file_ `views.py`, lalu isikan dengan:
 
@@ -185,12 +185,12 @@ urlpatterns = [
 - Kita menambahkan `url(r'^page/$', hello)` ke `urlpatterns`, fungsi ini ditujukan untuk memberitahu **Django** tentang **URL** yang sudah dikonfigurasikan. Argumen pertama merupakan _pattern-matching_ berupa **RegExp** yang dimulai dengan tanda `'^'` dan diakhiri dengan `'$'`, dan yang kedua merupakan fungsi _view_ yang kita panggil dari berkas `views.py`.
 - Satu lagi yang penting adalah `'r'`, karakter tersebut memberitahukan bahwa _string_ merupakan _'raw string'_. Sila baca [disini](https://docs.python.org/2.0/ref/strings.html) . Untuk **RegExp** sila baca [disini](https://docs.python.org/3.4/library/re.html)
 
-###Running Tes 2
+### Running Tes 2
 Kita jalankan kembali `python manage.py runserver`, lalu akses `http://127.0.0.1:8000/page`. Maka akan tampil seperti berikut :
 
 ![Hello Django -fullwidth]({{site.baseurl}}/asset/images/django1.png)
 
-##Footnote
+## Footnote
 **representasi** /_re·pre·sen·ta·si_/ /_répréséntasi_/ **(n)** 1 perbuatan mewakili; 2 keadaan diwakili; 3 apa yang mewakili; perwakilan.
 
 **prototipe** /_pro·to·ti·pe_/ **(n)** model yang mula-mula (model asli) yang menjadi contoh; contoh baku; contoh khas.
