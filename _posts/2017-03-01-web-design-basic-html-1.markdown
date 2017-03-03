@@ -5,7 +5,7 @@ date:   2017-03-01 06:32:02 +0700
 categories: web design html basic
 ---
 
-#HTML Basic 1
+# HTML Basic 1
 ## TOC
 1. [Overview](#overview)
 2. [Getting Started](#getting-started)
@@ -161,3 +161,5 @@ Kita bisa menjadikannya sebuah paragraf dengan bantuan _tag_ `<p> ... </p>`, mak
 ![Paragraf -fullwidth]({{site.baseurl}}/asset/images/html4.png)
 
 Tanpa memperhatikan kata tersebut mempunyai arti apa, maka ketika kita menetapkannya sebagai paragraf, browser akan secara otomatis menjadikan kata tersebut sebagai paragraf dan memposisikan kata tersebut sebagaimana seharusnya sebuah paragraf.
+
+Silakan lanjut ke $link
